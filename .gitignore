@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# AWS credentials - NEVER commit!
+.aws/
+credentials
+config
+
+# Terraform state files (if you add Terraform later)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Docker
+docker-compose.override.yml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local development
+uploads/
+.local/
